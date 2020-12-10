@@ -1,0 +1,259 @@
+/* DON'T WORRY ABOUT TOP CSS, START AT LINE 58 */
+#research-interestArea-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+}
+.research-interestArea-content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1024px;
+    height: 100%;
+    max-height: 50000px;
+    top: 0;
+    left: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.research-interestArea-content-container > ul {
+    list-style: none;
+    padding: 0;
+}
+.research-interestArea-title-equity {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1024px;
+  border-bottom: 3px solid rgb(62, 62, 62);
+  margin-bottom: -17px;
+}
+.research-interestArea-title-equity > h2 {
+    color: #f4b0a5;
+    font-family: 'Helvetica Neue Light';
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 30px;
+    letter-spacing: 2px;
+}
+#research-interestArea-cardList2 {
+    background-color: #f2f2f2;
+    text-align: center;
+    display: inline-block;
+    list-style-type: none;
+    padding: 0;
+}
+.research-interestArea-link {
+    text-decoration: none;
+}
+.research-interestArea-link > li {
+    list-style-type: none;
+    padding: 0;
+    text-decoration: none;
+}
+
+/* CHALLENGE HERE! Only need to do the missing parts. */
+.challenge-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid rgb(157, 157, 157);
+}
+.challenge-card-content-container {
+
+}
+.challenge-card-image-container {
+
+}
+.challenge-card-image-container > img {
+
+}
+.challenge-card-text-container {
+
+}
+.challenge-card-mainText-equity {
+
+}
+.challenge-card-mainText-equity > h2 {
+    color: #f4b0a5;
+    font-family: 'Helvetica Neue Light';
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 25px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+.challenge-card-mainText-equity > p {
+    color: rgb(84, 84, 84);
+    font-family: 'Helvetica Neue Light';
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 25px;
+    margin-top: 7px;
+}
+.challenge-card-bottomText {
+    display: flex;
+    flex-direction: row;
+    margin-top: -15px;
+}
+.challenge-card-bottomText > h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(55, 55, 55);
+    font-family: 'Helvetica Neue Medium';
+    font-size: 17px;
+    font-weight: lighter;
+    line-height: 20px;
+    margin-right: 20px;
+}
+.challenge-card-names {
+    display: flex;
+    flex-direction: row;
+    color: rgb(55, 55, 55);
+    font-family: 'Helvetica Neue Light';
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 20px; 
+}
+.challenge-card-names > h4 {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+@media only screen and (max-width: 550px) {
+    #research-interestArea-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f2f2f2;
+    }
+    .research-interestArea-content-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        max-width: 400px;
+        height: 100%;
+        max-height: 50000px;
+        top: 0;
+        left: 0;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .research-interestArea-content-container > ul {
+        list-style: none;
+        padding: 0;
+    }
+    .research-interestArea-title-equity {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 400px;
+      border-bottom: 2px solid rgb(62, 62, 62);
+      margin-bottom: -17px;
+    }
+    .research-interestArea-title-equity > h2 {
+        color: #f4b0a5;
+        font-family: 'Helvetica Neue Light';
+        font-size: 25px;
+        font-weight: bold;
+        line-height: 10px;
+        letter-spacing: 2px;
+    }
+    #research-interestArea-cardList2 {
+        background-color: #f2f2f2;
+        text-align: center;
+        display: inline-block;
+        list-style-type: none;
+        padding: 0;
+    }
+    .research-interestArea-link {
+        text-decoration: none;
+    }
+    .research-interestArea-link > li {
+        list-style-type: none;
+        padding: 0;
+        text-decoration: none;
+    }
+    
+    /* PART 2 */
+    .challenge-card-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 2px solid rgb(157, 157, 157);
+    }
+    .challenge-card-content-container {
+
+    }
+    .challenge-card-image-container {
+
+    }
+    .challenge-card-image-container > img {
+ 
+    }
+    .challenge-card-text-container {
+
+    }
+    .challenge-card-mainText-equity {
+      
+    }
+    .challenge-card-mainText-equity > h2 {
+        color: #f4b0a5;
+        font-family: 'Helvetica Neue Light';
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 25px;
+        letter-spacing: 1px;
+        margin-bottom: 10px;
+    }
+    .challenge-card-mainText-equity > p {
+        color: rgb(84, 84, 84);
+        font-family: 'Helvetica Neue Light';
+        font-size: 17px;
+        font-weight: bold;
+        line-height: 25px;
+    }
+    .challenge-card-bottomText {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        margin-top: 5px;
+    }
+    .challenge-card-bottomText > h3 {
+        color: rgb(55, 55, 55);
+        font-family: 'Helvetica Neue Medium';
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 30px;
+    }
+    .challenge-card-bottomText > h4 {
+        color: rgb(55, 55, 55);
+        font-family: 'Helvetica Neue Medium';
+        font-size: 16px;
+        font-weight: lighter;
+        line-height: 10px;
+        margin-bottom: 0px;
+    }
+    .challenge-card-names {
+        display: flex;
+        flex-direction: row;
+        color: rgb(55, 55, 55);
+        font-family: 'Helvetica Neue Light';
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 20px;
+    }
+    .challenge-card-names > h4 {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
